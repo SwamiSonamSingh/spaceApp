@@ -1,0 +1,20 @@
+.slider-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    &__image {
+        width: 774px;
+        height: 480px;
+        border-radius: 15px;
+    }
+    &__leftArrow,
+    &__rightArrow {
+        cursor: pointer;
+    }
+    &__rightArrow {
+        svg {
+            transform: rotate(180deg);
+        }
+    }
+}

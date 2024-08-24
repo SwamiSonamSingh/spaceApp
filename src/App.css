@@ -1,0 +1,12 @@
+.App{
+    background: rgb(239, 239, 239);
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    padding:2rem 0px;
+}
+.components{
+    display: flex;
+    background-image: url("https://live.staticflickr.com/7706/26751237322_5a52540ea3_h.jpg");
+    border-radius: 15px;
+}

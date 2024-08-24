@@ -1,0 +1,71 @@
+.launch-facilities {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 2.25rem;
+    height: fit-content;
+    width: fit-content;
+    &__heading {
+        color: white;
+        font-weight: bold;
+        font-size: 1.17em;
+        margin-bottom: 0.5rem;
+    }
+    &__wrapper {
+        &__title {
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 200;
+            font-size: 0.74rem;
+        }
+        &__value {
+            font-size: 1.1rem;
+            color: white;
+            font-weight: bold;
+        }
+        &--temprature,
+        &--weather {
+            margin-right: 3rem;
+        }
+        &--baseName {
+            margin-right: 6rem;
+            .launch-facilities__wrapper__value {
+                color: rgba(255, 255, 255, 0.5);
+                font-weight: 200;
+                font-size: 0.74rem;
+            }
+            .launch-facilities__wrapper__title {
+                font-size: 1.1rem;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+    &__button {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        &__icon {
+            &--open,
+            &--close {
+                height: 18px;
+            }
+            &--open {
+                svg {
+                    transform: rotate(-90deg);
+                    transition: transform 0.5s;
+                }
+            }
+            &--close {
+                svg {
+                    transform: rotate(90deg);
+                    transition: transform 0.5s;
+                }
+            }
+        }
+        &__text {
+            color: white;
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+    }
+}

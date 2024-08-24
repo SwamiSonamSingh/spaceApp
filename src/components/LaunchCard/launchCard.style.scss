@@ -1,0 +1,15 @@
+.launch-card-main {
+    overflow: auto;
+    padding: 2rem 2rem;
+    height: 83.7vh;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    gap: 20px;
+    width: min-content;
+    &__loader {
+        align-items: center;
+        display: flex;
+        width: 832px;
+        justify-content: center;
+    }
+}
